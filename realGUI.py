@@ -53,9 +53,9 @@ class HomePage(tk.Frame):
         canvas.create_rectangle(0, 0, screenWidth, screenHeight, fill="#FFEDA9")
         canvas.place(x=0, y=screenHeight/11)
 
-        img = ImageTk.PhotoImage(Image.open("bigfatprojectgui/Sam.png"))
-        panel = tk.Label(root, image = img)
-        panel.pack()
+        # img = ImageTk.PhotoImage(Image.open("bigfatprojectgui/Sam.png"))
+        # panel = tk.Label(root, image = img)
+        # panel.pack()
 
 #x1 y1 x2 y2
         statsRectangle = canvas.create_rectangle(screenWidth-screenWidth/10,screenHeight-screenHeight/2,screenWidth-screenWidth/2,screenHeight-screenHeight/1.1, outline = "black", fill = "#FFFFFF")
